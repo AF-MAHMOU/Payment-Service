@@ -96,7 +96,9 @@ Clone the repository:
 
 
 git clone https://github.com/AF-MAHMOU/Payment-Service.git
+
 cd stripe-payment-service
+
 Install dependencies:
 
 npm install   # or `yarn install`
