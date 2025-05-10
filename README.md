@@ -95,7 +95,7 @@ If you need to integrate with other services, ensure the authentication token is
 Clone the repository:
 
 
-git clone https://github.com/yourusername/stripe-payment-service.git
+git clone https://github.com/AF-MAHMOU/Payment-Service.git
 cd stripe-payment-service
 Install dependencies:
 
