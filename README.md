@@ -21,6 +21,7 @@ You need to obtain your Stripe keys from the [Stripe Dashboard](https://dashboar
 
 Set the following environment variables to configure the service properly:
 
+```bash
 STRIPE_SECRET_KEY=sk_test_****      # Your Stripe secret key
 STRIPE_WEBHOOK_SECRET=wb_token      # Your Stripe webhook secret token
 AUTH_SECRET_KEY=your_auth_key      # Secret key for authenticating users
@@ -28,7 +29,9 @@ EMAIL_HOST=smtp.your-email-provider.com  # Email service host (e.g., smtp.gmail.
 EMAIL_PORT=587                    # Email service port (587 for TLS)
 EMAIL_USER=your-email@example.com  # Your email username
 EMAIL_PASS=your-email-password     # Your email password (or app-specific password)
-3. Authentication System Integration
+```
+
+### 3. Authentication System Integration
 You can integrate this payment service with your existing authentication system, or set up your own. If you have an existing authentication system, make sure the AUTH_SECRET_KEY is used to validate user authentication tokens.
 
 If you're building your own authentication system, ensure the authentication logic in the auth controller handles token generation, validation, and authentication before processing payment requests.
